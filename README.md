@@ -4,9 +4,21 @@ Pokemon Simulated Battle using Express and Typescript
 Submitted by Jene🚍🏎🚉🚅🚇🚃🚋
 
 # <!> Instructions for Running without error <!>            
+                                                                
+  1. Add this in package.json:                                   
+                                                                  
+    "scripts": {                                                  
+        "prompt-sync": "ts-node scripts/prompt-sync.ts",         
+        "start": "ts-node pokebox.ts && node pokebox.js",                
+        "build": "tsc"                                            
+    }                                                             
+  **this runs twice but both (.js/.ts)produce the same outcome**
+    
+  2. Run in terminal: 
+    
+    npm run start
 
-
-. . 
+# <!> Program Navigation <!> 
 
                                                              
  # 🏎Scope and Limiation🏎:
