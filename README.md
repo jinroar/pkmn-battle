@@ -58,8 +58,5 @@ Using pokeapi data, create an endpoint that accepts
           >>}
   
  #  Limitations:
- ### * No checking for duplicates
  ### * Must be run with ts-node
- ### * Must Store atleast 1 pokemon before finding ( [3] - Find ) any pokemon in the API
-
-  
+ ### * Wrong input of pokemon will cause the program to force exit on some cases
