@@ -27,8 +27,8 @@ Submitted by Jene🚍🏎🚉🚅🚇🚃🚋
   
 Create endpoints to simulate a face off between two pokemons.
 Using pokeapi data, create an endpoint that accepts
-  * > 2 parameters (pkmn1 and pkmn2).
-   * > using
+* 2 parameters (pkmn1 and pkmn2).
+   * > using:
      >>   stats.name = "hp" and
      >>  stats.name = "attack",
      >>>   simulate a battle.
