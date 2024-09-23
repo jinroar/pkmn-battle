@@ -9,7 +9,7 @@ Submitted by Jene🚍🏎🚉🚅🚇🚃🚋
                                                                   
     "scripts": {                                                  
         "prompt-sync": "ts-node scripts/prompt-sync.ts",         
-        "start": "ts-node pokebox.ts && node pokebox.js",                
+        "start": "ts-node pokebattle.ts && node pokebattle.js",                
         "build": "tsc"                                            
     }                                                             
   **this runs twice but both (.js/.ts)produce the same outcome**
@@ -45,16 +45,30 @@ Submitted by Jene🚍🏎🚉🚅🚇🚃🚋
                                                              
  # 🏎Scope and Limiation🏎:
  
-  ## Activity for Typescript:
+## Activity Deliverables:
   
- * ### Create a web api to simulate a pokemon box system. 
-    ####  > This will include the following endpoints:
-  
-   *     1. store pokemon - parameter will be id or name, this will store a pokemon in a list...
-     >  - called box (Box.json is utilized)
-   *     2. view box - list all pokemon inside your box
-   *     3. view pokemon - displays the details of the pokemon (from pokeapi)...
-     >   - this will throw an error if pokemon is not on your box
+Create endpoints to simulate a face off between two pokemons.
+Using pokeapi data, create an endpoint that accepts 2 parameters (pkmn1 and pkmn2).
+   using stats.name = "hp" and stats.name = "attack", simulate a battle.
+   the pokemon with the highest remaining HP wins. If both has the same HP after the battle, the battle is a draw. when both pokemons fainted, it is also a draw.
+ 
+Expected results:
+  (test cases)
+   ditto vs pikachu
+      {
+          winner: null, // no winner
+          pkm1: {             
+             name: "ditto",
+             attack: 48,
+             attack: 48
+          },          
+          pkm2: {             
+             name: "pikachu",
+             attack: 35,
+             attack: 55
+          },
+          results: "draw"
+      }
   
  #  Limitations:
  ## * No checking for duplicates
