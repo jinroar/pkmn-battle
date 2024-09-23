@@ -8,15 +8,13 @@ Submitted by Jene🚍🏎🚉🚅🚇🚃🚋
   1. Add this in package.json:                                   
                                                                   
     "scripts": {                                                  
-        "prompt-sync": "ts-node scripts/prompt-sync.ts",         
-        "start": "ts-node pokebox.ts && node pokebox.js",                
-        "build": "tsc"                                            
+       "battle": "ts-node pokebattle.ts",                                     
     }                                                             
   **this runs twice but both (.js/.ts)produce the same outcome**
     
   2. Run in terminal: 
     
-    npm run start
+    npm run battle
 
 # <!> Program Navigation <!> 
 
