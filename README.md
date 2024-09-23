@@ -52,23 +52,23 @@ Using pokeapi data, create an endpoint that accepts 2 parameters (pkmn1 and pkmn
    using stats.name = "hp" and stats.name = "attack", simulate a battle.
    the pokemon with the highest remaining HP wins. If both has the same HP after the battle, the battle is a draw. when both pokemons fainted, it is also a draw.
  
-Expected results:
+> Expected results:
   (test cases)
-   ditto vs pikachu
-      {
-          winner: null, // no winner
-          pkm1: {             
-             name: "ditto",
-             attack: 48,
-             attack: 48
-          },          
-          pkm2: {             
-             name: "pikachu",
-             attack: 35,
-             attack: 55
-          },
-          results: "draw"
-      }
+          ditto vs pikachu
+            {
+                winner: null, // no winner
+                pkm1: {             
+                   name: "ditto",
+                   attack: 48,
+                   attack: 48
+                },          
+                pkm2: {             
+                   name: "pikachu",
+                   attack: 35,
+                   attack: 55
+                },
+                results: "draw"
+            }
   
  #  Limitations:
  ## * No checking for duplicates
