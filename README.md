@@ -28,14 +28,14 @@ Submitted by Jene🚍🏎🚉🚅🚇🚃🚋
 Create endpoints to simulate a face off between two pokemons.
 Using pokeapi data, create an endpoint that accepts
 * 2 parameters (pkmn1 and pkmn2).
-   * > using:
-     >>   stats.name = "hp" and
+  * using:
+     >   stats.name = "hp" and
      >>  stats.name = "attack",
      >>>   simulate a battle.
- * > **the pokemon with the highest remaining HP wins.**
-  * > If both has the same HP after the battle,
+   * **the pokemon with the highest remaining HP wins.**
+  *  If both has the same HP after the battle,
       * > the battle is a draw.
-* > when both pokemons fainted,
+   * when both pokemons fainted,
      * > it is also a draw.
  
 ## Expected results:
