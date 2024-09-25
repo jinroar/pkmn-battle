@@ -72,4 +72,4 @@ Using pokeapi data, create an endpoint that accepts
   
  #  Limitations:
  ### * Must be run with ts-node
- ### * Wrong input of pokemon will cause the program to force exit on some cases
+ ### * Up and Down Arrow keys are needed **for the "Any keypress" to return to the main menu**
