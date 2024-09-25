@@ -8,7 +8,8 @@ Submitted by Jene🚍🏎🚉🚅🚇🚃🚋
   1. Add this in package.json:                                   
                                                                   
     "scripts": {                                                  
-       "battle": "ts-node pokebattle.ts",                                     
+       "start": "ts-node pokebattle.ts && node pokebattle.js",
+       "build": "tsc"                                
     }                                                             
   **this runs twice but both (.js/.ts)produce the same outcome**
     
