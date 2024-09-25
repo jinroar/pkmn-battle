@@ -12,10 +12,20 @@ Submitted by Jene🚍🏎🚉🚅🚇🚃🚋
        "build": "tsc"                                
     }                                                             
   **this runs twice but both (.js/.ts)produce the same outcome**
+
+    "scripts": {                                                  
+        "battle": "ts-node pokebattle.ts",                               
+    }   
+    
+ **this runs the .ts program**
+
+
+
     
   2. Run in terminal: 
     
     npm run battle
+    npm run start
 
 # <!> Program Navigation <!> 
 
